@@ -1,0 +1,62 @@
+[
+  {
+    "file": {
+      "ko": "editor.png",
+      "en": "editor.en.png",
+      "ja": "editor.ja.png"
+    },
+    "ko": "화면 캡처 편집기 — 주석을 얹고 배경·창 프레임·그림자로 꾸밉니다.",
+    "en": "Screenshot editor — annotate, then dress it up with a background, window frame and shadow.",
+    "ja": "画面キャプチャエディタ — 注釈を載せ、背景・ウインドウフレーム・影で仕上げます。"
+  },
+  {
+    "file": {
+      "ko": "diary.png",
+      "en": "diary.en.png",
+      "ja": "diary.ja.png"
+    },
+    "ko": "일기장 — 달력에서 날짜를 고르고 기분과 태그를 함께 기록합니다.",
+    "en": "Journal — pick a date on the calendar and log your mood and tags with it.",
+    "ja": "日記 — カレンダーで日付を選び、気分とタグを一緒に残します。"
+  },
+  {
+    "file": {
+      "ko": "launcher.png",
+      "en": "launcher.en.png",
+      "ja": "launcher.ja.png"
+    },
+    "ko": "빠른 실행 — 단축키 한 번으로 앱·설정·모듈을 검색해 실행합니다.",
+    "en": "Quick launcher — one hotkey to search and open apps, settings panes and modules.",
+    "ja": "クイックランチャー — ショートカット一度でアプリ・設定・モジュールを探して開きます。"
+  },
+  {
+    "file": {
+      "ko": "toggles.png",
+      "en": "toggles.en.png",
+      "ja": "toggles.ja.png"
+    },
+    "ko": "빠른 토글 — 다크 모드·색온도·마이크 음소거를 메뉴 막대에서 한 번에.",
+    "en": "Quick toggles — dark mode, colour temperature and mic mute, all from the menu bar.",
+    "ja": "クイックトグル — ダークモード・色温度・マイクのミュートをメニューバーから一度に。"
+  },
+  {
+    "file": {
+      "ko": "emoji.png",
+      "en": "emoji.en.png",
+      "ja": "emoji.ja.png"
+    },
+    "ko": "이모지·특수문자 팔레트 — 이름으로 찾아 어디에나 입력합니다.",
+    "en": "Emoji and symbol palette — find by name and type it into any app.",
+    "ja": "絵文字・記号パレット — 名前で探してどこにでも入力します。"
+  },
+  {
+    "file": {
+      "ko": "settings.png",
+      "en": "settings.en.png",
+      "ja": "settings.ja.png"
+    },
+    "ko": "설정 창 — 모듈마다 따로 켜고 끄며, 필요한 권한을 그 자리에서 안내합니다.",
+    "en": "Settings — switch each module on or off, with the permissions it needs explained in place.",
+    "ja": "設定 — 75 のモジュールを分類ごとに切り替え、必要な権限をその場で案内します。"
+  }
+]

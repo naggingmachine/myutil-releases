@@ -1,0 +1,1741 @@
+{
+  "count": 85,
+  "categories": {
+    "window": {
+      "ko": "창·디스플레이",
+      "en": "Windows & Displays",
+      "ja": "ウインドウ・ディスプレイ"
+    },
+    "capture": {
+      "ko": "화면 캡처",
+      "en": "Screen Capture",
+      "ja": "画面キャプチャ"
+    },
+    "input": {
+      "ko": "입력·키보드",
+      "en": "Input & Keyboard",
+      "ja": "入力・キーボード"
+    },
+    "files": {
+      "ko": "파일·디스크",
+      "en": "Files & Disk",
+      "ja": "ファイル・ディスク"
+    },
+    "media": {
+      "ko": "미디어",
+      "en": "Media",
+      "ja": "メディア"
+    },
+    "text": {
+      "ko": "텍스트·개발",
+      "en": "Text & Developer",
+      "ja": "テキスト・開発"
+    },
+    "system": {
+      "ko": "시스템·앱",
+      "en": "System & Apps",
+      "ja": "システム・アプリ"
+    },
+    "network": {
+      "ko": "네트워크",
+      "en": "Network",
+      "ja": "ネットワーク"
+    },
+    "security": {
+      "ko": "보안",
+      "en": "Security",
+      "ja": "セキュリティ"
+    },
+    "focus": {
+      "ko": "시간·생산성",
+      "en": "Time & Productivity",
+      "ja": "時間・生産性"
+    },
+    "menubar": {
+      "ko": "메뉴 막대",
+      "en": "Menu Bar",
+      "ja": "メニューバー"
+    },
+    "misc": {
+      "ko": "기타",
+      "en": "Everything Else",
+      "ja": "その他"
+    }
+  },
+  "permissions": {
+    "accessibility": {
+      "ko": "손쉬운 사용",
+      "en": "Accessibility",
+      "ja": "アクセシビリティ"
+    },
+    "screenRecording": {
+      "ko": "화면 기록",
+      "en": "Screen Recording",
+      "ja": "画面収録"
+    },
+    "inputMonitoring": {
+      "ko": "입력 모니터링",
+      "en": "Input Monitoring",
+      "ja": "入力監視"
+    },
+    "admin": {
+      "ko": "관리자 권한",
+      "en": "Administrator",
+      "ja": "管理者権限"
+    },
+    "automation": {
+      "ko": "자동화",
+      "en": "Automation",
+      "ja": "オートメーション"
+    },
+    "location": {
+      "ko": "위치",
+      "en": "Location",
+      "ja": "位置情報"
+    },
+    "calendar": {
+      "ko": "캘린더",
+      "en": "Calendar",
+      "ja": "カレンダー"
+    },
+    "notifications": {
+      "ko": "알림",
+      "en": "Notifications",
+      "ja": "通知"
+    }
+  },
+  "categoryOrder": [
+    "window",
+    "capture",
+    "input",
+    "files",
+    "media",
+    "text",
+    "system",
+    "network",
+    "security",
+    "focus",
+    "menubar",
+    "misc"
+  ],
+  "langs": [
+    "ko",
+    "en",
+    "ja"
+  ],
+  "modules": [
+    {
+      "target": "WindowSnap",
+      "id": "window-snap",
+      "symbol": "rectangle.split.2x1",
+      "category": "window",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "창 스냅",
+        "en": "Window Snap",
+        "ja": "ウインドウスナップ"
+      },
+      "summary": {
+        "ko": "단축키로 창을 반/사분할/최대화/중앙 정렬",
+        "en": "Snap windows to halves, quarters, maximize or center with hotkeys",
+        "ja": "ショートカットでウインドウを半分・4分割・最大化・中央揃え"
+      }
+    },
+    {
+      "target": "BatteryLimiter",
+      "id": "battery-limiter",
+      "symbol": "battery.75percent",
+      "category": "system",
+      "defaultEnabled": false,
+      "permissions": [
+        "admin"
+      ],
+      "name": {
+        "ko": "배터리 충전 제한",
+        "en": "Battery Charge Limit",
+        "ja": "バッテリー充電制限"
+      },
+      "summary": {
+        "ko": "지정 퍼센트에서 충전 중단 (SMC + helper)",
+        "en": "Stop charging at a chosen percentage (SMC + helper)",
+        "ja": "指定したパーセントで充電を停止 (SMC + helper)"
+      }
+    },
+    {
+      "target": "DisplayProfiles",
+      "id": "display-profiles",
+      "symbol": "display.2",
+      "category": "window",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "클램셸·디스플레이 프로필",
+        "en": "Clamshell & Display Profiles",
+        "ja": "クラムシェル・ディスプレイプロファイル"
+      },
+      "summary": {
+        "ko": "디스플레이 조합별 구성 저장·자동 적용",
+        "en": "Save a layout per display combination and re-apply it automatically",
+        "ja": "ディスプレイの組み合わせごとに構成を保存・自動適用"
+      }
+    },
+    {
+      "target": "KeepAwake",
+      "id": "keep-awake",
+      "symbol": "cup.and.saucer",
+      "category": "window",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "화면 켜짐 유지",
+        "en": "Keep Awake",
+        "ja": "スリープ防止"
+      },
+      "summary": {
+        "ko": "잠자기와 화면 꺼짐 방지",
+        "en": "Prevent sleep and display dimming",
+        "ja": "スリープと画面オフを防止"
+      }
+    },
+    {
+      "target": "ClipboardHistory",
+      "id": "clipboard-history",
+      "symbol": "doc.on.clipboard",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "클립보드 히스토리",
+        "en": "Clipboard History",
+        "ja": "クリップボード履歴"
+      },
+      "summary": {
+        "ko": "복사 기록 검색·붙여넣기 (⌘⇧V)",
+        "en": "Search and paste from your copy history (⌘⇧V)",
+        "ja": "コピー履歴を検索してペースト (⌘⇧V)"
+      }
+    },
+    {
+      "target": "SnippetExpander",
+      "id": "snippet-expander",
+      "symbol": "text.badge.plus",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "텍스트 스니펫 확장",
+        "en": "Text Snippets",
+        "ja": "テキストスニペット"
+      },
+      "summary": {
+        "ko": "트리거 문자열(;addr 등)을 긴 텍스트로 확장",
+        "en": "Expand trigger strings (;addr, …) into longer text",
+        "ja": "トリガー文字列 (;addr など) を長いテキストに展開"
+      }
+    },
+    {
+      "target": "HangulFixer",
+      "id": "hangul-fixer",
+      "symbol": "character.ko",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "한/영 전환 교정",
+        "en": "Korean/English Fixer",
+        "ja": "韓/英 入力修正"
+      },
+      "summary": {
+        "ko": "직전 단어를 한↔영 변환 (⌥Space), 오타 자동 감지",
+        "en": "Convert the previous word between Korean and English (⌥Space), detect layout typos",
+        "ja": "直前の単語を韓↔英に変換 (⌥Space)、配列ミスの自動検出"
+      }
+    },
+    {
+      "target": "EmojiPalette",
+      "id": "emoji-palette",
+      "symbol": "face.smiling",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "이모지·특수문자",
+        "en": "Emoji & Symbols",
+        "ja": "絵文字・特殊文字"
+      },
+      "summary": {
+        "ko": "검색형 이모지·기호 팔레트 (⌥⌘E)",
+        "en": "Searchable emoji and symbol palette (⌥⌘E)",
+        "ja": "検索できる絵文字・記号パレット (⌥⌘E)"
+      }
+    },
+    {
+      "target": "DownloadsOrganizer",
+      "id": "downloads-organizer",
+      "symbol": "folder.badge.gearshape",
+      "category": "files",
+      "defaultEnabled": false,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "다운로드 자동 정리",
+        "en": "Downloads Organizer",
+        "ja": "ダウンロード自動整理"
+      },
+      "summary": {
+        "ko": "다운로드 폴더를 규칙에 따라 자동 정리 (하위 폴더 이동·이름 변경·태그·휴지통, 되돌리기 지원)",
+        "en": "Automatically tidies your Downloads folder by rules (move to subfolder, rename, tag, trash — with undo)",
+        "ja": "ダウンロードフォルダをルールに従って自動整理（サブフォルダへ移動・名前変更・タグ・ゴミ箱、取り消し対応）"
+      }
+    },
+    {
+      "target": "ScreenshotManager",
+      "id": "screenshot-manager",
+      "symbol": "camera.viewfinder",
+      "category": "capture",
+      "defaultEnabled": false,
+      "permissions": [],
+      "name": {
+        "ko": "스크린샷 관리",
+        "en": "Screenshot Manager",
+        "ja": "スクリーンショット管理"
+      },
+      "summary": {
+        "ko": "새 스크린샷을 OCR 로 읽어 앱·키워드 기반 이름 짓기, 폴더 분류, 태그·Spotlight 코멘트 저장",
+        "en": "Reads new screenshots with OCR to name them by app and keywords, sort into folders, and save tags and Spotlight comments",
+        "ja": "新しいスクリーンショットをOCRで読み取り、アプリ名・キーワードで命名、フォルダ分類、タグ・Spotlightコメントを保存"
+      }
+    },
+    {
+      "target": "DuplicateFinder",
+      "id": "duplicate-finder",
+      "symbol": "doc.on.doc",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "중복 파일 찾기",
+        "en": "Duplicate Finder",
+        "ja": "重複ファイル検索"
+      },
+      "summary": {
+        "ko": "크기 → 앞 4KB → SHA-256 3단계 비교와 이미지 pHash 유사 검출로 중복 파일을 찾아 휴지통으로 정리",
+        "en": "Finds duplicate files with a 3-stage size → first 4KB → SHA-256 comparison plus pHash image similarity, then moves them to the Trash",
+        "ja": "サイズ → 先頭4KB → SHA-256 の3段階比較と画像pHash類似検出で重複ファイルを見つけてゴミ箱へ整理"
+      }
+    },
+    {
+      "target": "ImageConverter",
+      "id": "image-converter",
+      "symbol": "photo.on.rectangle",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "이미지 압축·변환",
+        "en": "Image Converter",
+        "ja": "画像圧縮・変換"
+      },
+      "summary": {
+        "ko": "드롭 또는 Finder 퀵액션으로 이미지를 JPG/PNG/WebP/HEIC 로 변환·리사이즈·압축 (프리셋 지원)",
+        "en": "Convert, resize, and compress images to JPG/PNG/WebP/HEIC by drag & drop or a Finder Quick Action (with presets)",
+        "ja": "ドロップまたはFinderクイックアクションで画像をJPG/PNG/WebP/HEICに変換・リサイズ・圧縮（プリセット対応）"
+      }
+    },
+    {
+      "target": "SystemMonitor",
+      "id": "system-monitor",
+      "symbol": "gauge.with.dots.needle.67percent",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "시스템 모니터",
+        "en": "System Monitor",
+        "ja": "システムモニター"
+      },
+      "summary": {
+        "ko": "CPU·메모리·네트워크 메뉴바 표시",
+        "en": "CPU, memory & network in the menu bar",
+        "ja": "CPU・メモリ・ネットワークをメニューバーに表示"
+      }
+    },
+    {
+      "target": "WeatherCalendar",
+      "id": "weather-calendar",
+      "symbol": "cloud.sun",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "location",
+        "calendar"
+      ],
+      "name": {
+        "ko": "날씨·달력",
+        "en": "Weather & Calendar",
+        "ja": "天気・カレンダー"
+      },
+      "summary": {
+        "ko": "메뉴바 날짜 표시, 현재 위치 날씨와 오늘·내일 일정, 미니 달력",
+        "en": "Date in the menu bar, local weather, today's and tomorrow's events, and a mini calendar",
+        "ja": "メニューバーに日付を表示、現在地の天気と今日・明日の予定、ミニカレンダー"
+      }
+    },
+    {
+      "target": "WorldClock",
+      "id": "world-clock",
+      "symbol": "globe.asia.australia",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "세계 시계·환율",
+        "en": "World Clock & Currency",
+        "ja": "世界時計・為替"
+      },
+      "summary": {
+        "ko": "메뉴바에 여러 도시 시각, 미팅 시간 계산기, 환율 계산기",
+        "en": "City times in the menu bar, a meeting time finder, and a currency converter",
+        "ja": "メニューバーに各都市の時刻、会議時間の検索、為替計算"
+      }
+    },
+    {
+      "target": "Pomodoro",
+      "id": "pomodoro",
+      "symbol": "timer",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "포모도로 타이머",
+        "en": "Pomodoro Timer",
+        "ja": "ポモドーロタイマー"
+      },
+      "summary": {
+        "ko": "메뉴바 포모도로 타이머, 휴식 오버레이, 세션 기록과 통계",
+        "en": "Menu bar Pomodoro timer with break overlay, session history, and statistics",
+        "ja": "メニューバーのポモドーロタイマー、休憩オーバーレイ、セッション記録と統計"
+      }
+    },
+    {
+      "target": "AppUsage",
+      "id": "app-usage",
+      "symbol": "chart.bar.xaxis",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [
+        "automation"
+      ],
+      "name": {
+        "ko": "앱 사용 시간",
+        "en": "App Usage",
+        "ja": "アプリ使用時間"
+      },
+      "summary": {
+        "ko": "앱별 사용 시간 자동 기록(유휴 제외), 카테고리·히트맵 리포트",
+        "en": "Automatically logs time per app (idle excluded) with category and heatmap reports",
+        "ja": "アプリごとの使用時間を自動記録(アイドル除外)、カテゴリ・ヒートマップレポート"
+      }
+    },
+    {
+      "target": "WebsiteBlocker",
+      "id": "website-blocker",
+      "symbol": "hand.raised",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "admin"
+      ],
+      "name": {
+        "ko": "웹사이트 차단",
+        "en": "Website Blocker",
+        "ja": "Web サイトブロック"
+      },
+      "summary": {
+        "ko": "집중 세션 동안 사이트 차단 (hosts)",
+        "en": "Block distracting sites during focus sessions (hosts)",
+        "ja": "集中セッション中にサイトをブロック (hosts)"
+      }
+    },
+    {
+      "target": "ShortcutCheatsheet",
+      "id": "shortcut-cheatsheet",
+      "symbol": "keyboard",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "단축키 치트시트",
+        "en": "Shortcut Cheatsheet",
+        "ja": "ショートカット早見表"
+      },
+      "summary": {
+        "ko": "활성 앱의 메뉴 단축키를 오버레이로 표시 (⌃⌥/, ⌘ 길게)",
+        "en": "Overlay showing the active app's menu shortcuts (⌃⌥/, hold ⌘)",
+        "ja": "最前面アプリのメニューショートカットをオーバーレイ表示 (⌃⌥/、⌘ 長押し)"
+      }
+    },
+    {
+      "target": "QuickNotes",
+      "id": "quick-notes",
+      "symbol": "note.text",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "빠른 메모",
+        "en": "Quick Notes",
+        "ja": "クイックメモ"
+      },
+      "summary": {
+        "ko": "단축키로 여는 마크다운 메모 패널 (⌃⌥N)",
+        "en": "Markdown notes panel opened with a shortcut (⌃⌥N)",
+        "ja": "ショートカットで開く Markdown メモパネル (⌃⌥N)"
+      }
+    },
+    {
+      "target": "ColorPicker",
+      "id": "color-picker",
+      "symbol": "eyedropper",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "컬러 피커",
+        "en": "Color Picker",
+        "ja": "カラーピッカー"
+      },
+      "summary": {
+        "ko": "화면 어디서든 색 추출",
+        "en": "Pick a color from anywhere on screen",
+        "ja": "画面上のどこからでも色を取得"
+      }
+    },
+    {
+      "target": "QRTool",
+      "id": "qr-tool",
+      "symbol": "qrcode",
+      "category": "misc",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "QR 생성·인식",
+        "en": "QR Generate & Scan",
+        "ja": "QR 生成・読み取り"
+      },
+      "summary": {
+        "ko": "클립보드 QR 생성, 화면 QR 인식",
+        "en": "Make QR from clipboard, read QR from screen",
+        "ja": "クリップボードから QR 生成、画面の QR を読み取り"
+      }
+    },
+    {
+      "target": "AudioSwitcher",
+      "id": "audio-switcher",
+      "symbol": "hifispeaker",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "오디오 전환",
+        "en": "Audio Switcher",
+        "ja": "オーディオ切替"
+      },
+      "summary": {
+        "ko": "입출력 장치 전환·볼륨",
+        "en": "Switch input/output devices & volume",
+        "ja": "入出力デバイスの切替と音量"
+      }
+    },
+    {
+      "target": "CursorHighlight",
+      "id": "cursor-highlight",
+      "symbol": "cursorarrow.rays",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "커서 하이라이트",
+        "en": "Cursor Highlight",
+        "ja": "カーソルハイライト"
+      },
+      "summary": {
+        "ko": "발표용 커서 강조·키 입력 표시",
+        "en": "Highlight the cursor & show keystrokes for presentations",
+        "ja": "プレゼン用のカーソル強調・キー入力表示"
+      }
+    },
+    {
+      "target": "WiFiPassword",
+      "id": "wifi-password",
+      "symbol": "wifi",
+      "category": "network",
+      "defaultEnabled": true,
+      "permissions": [
+        "location"
+      ],
+      "name": {
+        "ko": "Wi-Fi 비밀번호",
+        "en": "Wi-Fi Password",
+        "ja": "Wi-Fi パスワード"
+      },
+      "summary": {
+        "ko": "저장된 Wi-Fi 비밀번호 확인·QR 공유",
+        "en": "View saved Wi-Fi passwords & share as QR",
+        "ja": "保存済み Wi-Fi パスワードの確認・QR 共有"
+      }
+    },
+    {
+      "target": "LyricsSubtitle",
+      "id": "lyrics-subtitle",
+      "symbol": "captions.bubble",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "가사 자막 생성",
+        "en": "Lyrics Subtitles",
+        "ja": "歌詞字幕作成"
+      },
+      "summary": {
+        "ko": "음악 파일과 가사로 SRT 자막 생성·편집 (유튜브·DistroKid)",
+        "en": "Create and edit SRT subtitles from a music file and lyrics (YouTube, DistroKid)",
+        "ja": "音楽ファイルと歌詞からSRT字幕を作成・編集（YouTube・DistroKid）"
+      }
+    },
+    {
+      "target": "MarkdownEditor",
+      "id": "markdown-editor",
+      "symbol": "doc.richtext",
+      "category": "text",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "마크다운 편집기",
+        "en": "Markdown Editor",
+        "ja": "Markdownエディタ"
+      },
+      "summary": {
+        "ko": "구문 강조·실시간 미리보기·열기·저장이 되는 MD 편집기",
+        "en": "Markdown editor with syntax highlighting, live preview, open and save",
+        "ja": "構文強調・リアルタイムプレビュー・開く・保存ができるMDエディタ"
+      }
+    },
+    {
+      "target": "ScreenCapture",
+      "id": "screen-capture",
+      "symbol": "camera.on.rectangle",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "화면 캡처·편집",
+        "en": "Screen Capture & Annotate",
+        "ja": "画面キャプチャ・注釈"
+      },
+      "summary": {
+        "ko": "단축키로 영역·창·전체 캡처 후 주석 편집",
+        "en": "Capture an area, window, or screen with a hotkey, then annotate",
+        "ja": "ショートカットで範囲・ウインドウ・全画面をキャプチャして注釈を編集"
+      }
+    },
+    {
+      "target": "DevToolbox",
+      "id": "dev-toolbox",
+      "symbol": "wrench.and.screwdriver",
+      "category": "text",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "개발자 도구상자",
+        "en": "Developer Toolbox",
+        "ja": "開発者ツールボックス"
+      },
+      "summary": {
+        "ko": "JSON 포맷, Base64, URL 인코딩, 해시, UUID, 타임스탬프, 진법 변환",
+        "en": "JSON formatting, Base64, URL encoding, hashes, UUID, timestamps, radix conversion",
+        "ja": "JSON整形、Base64、URLエンコード、ハッシュ、UUID、タイムスタンプ、基数変換"
+      }
+    },
+    {
+      "target": "RegexTester",
+      "id": "regex-tester",
+      "symbol": "textformat.abc.dottedunderline",
+      "category": "text",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "정규식 테스터",
+        "en": "Regex Tester",
+        "ja": "正規表現テスター"
+      },
+      "summary": {
+        "ko": "정규식 실시간 매칭·그룹·치환 테스트",
+        "en": "Live regex matching, groups and replacement",
+        "ja": "正規表現のリアルタイムマッチ・グループ・置換テスト"
+      }
+    },
+    {
+      "target": "UnitConverter",
+      "id": "unit-converter",
+      "symbol": "arrow.left.arrow.right",
+      "category": "misc",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "단위 변환",
+        "en": "Unit Converter",
+        "ja": "単位変換"
+      },
+      "summary": {
+        "ko": "길이·무게·온도·데이터·시간·면적·속도 단위 변환",
+        "en": "Convert length, mass, temperature, data, time, area and speed units",
+        "ja": "長さ・重さ・温度・データ・時間・面積・速度の単位変換"
+      }
+    },
+    {
+      "target": "SmartCalculator",
+      "id": "smart-calculator",
+      "symbol": "function",
+      "category": "text",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "계산 메모",
+        "en": "Calc Notes",
+        "ja": "計算メモ"
+      },
+      "summary": {
+        "ko": "자연어 수식을 줄 단위로 계산하는 메모형 계산기",
+        "en": "Notepad-style calculator that evaluates each line as you type",
+        "ja": "各行の式をその場で計算するメモ型電卓"
+      }
+    },
+    {
+      "target": "BatchRenamer",
+      "id": "batch-renamer",
+      "symbol": "textformat.abc",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "일괄 이름 변경",
+        "en": "Batch Renamer",
+        "ja": "一括リネーム"
+      },
+      "summary": {
+        "ko": "규칙 체인으로 파일 이름을 일괄 변경하고 되돌리기",
+        "en": "Rename files in bulk with rule chains, with undo",
+        "ja": "ルールチェーンでファイル名を一括変更・取り消し"
+      }
+    },
+    {
+      "target": "PDFTools",
+      "id": "pdf-tools",
+      "symbol": "doc.richtext",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "PDF 도구",
+        "en": "PDF Tools",
+        "ja": "PDFツール"
+      },
+      "summary": {
+        "ko": "PDF 합치기·분할·페이지 관리·압축·이미지 변환·암호·메타데이터·텍스트 추출",
+        "en": "Merge, split, manage pages, compress, convert to images, password, metadata, extract text",
+        "ja": "PDF の結合・分割・ページ管理・圧縮・画像変換・パスワード・メタデータ・テキスト抽出"
+      }
+    },
+    {
+      "target": "AppUninstaller",
+      "id": "app-uninstaller",
+      "symbol": "trash.slash",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "앱 완전 삭제",
+        "en": "App Uninstaller",
+        "ja": "アプリ完全削除"
+      },
+      "summary": {
+        "ko": "앱과 관련 지원 파일·캐시·설정을 찾아 휴지통으로 이동",
+        "en": "Find an app's support files, caches and preferences and move them to the Trash",
+        "ja": "アプリの関連ファイル・キャッシュ・設定を探してゴミ箱へ移動"
+      }
+    },
+    {
+      "target": "DiskUsage",
+      "id": "disk-usage",
+      "symbol": "chart.pie",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "디스크 사용량",
+        "en": "Disk Usage",
+        "ja": "ディスク使用量"
+      },
+      "summary": {
+        "ko": "폴더별 용량을 스캔해 트리·선버스트·트리맵으로 보고 큰 파일을 정리",
+        "en": "Scan folder sizes as tree, sunburst or treemap and clean up large files",
+        "ja": "フォルダ容量をツリー・サンバースト・ツリーマップで表示し大きなファイルを整理"
+      }
+    },
+    {
+      "target": "PasswordGenerator",
+      "id": "password-generator",
+      "symbol": "key.fill",
+      "category": "security",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "비밀번호 생성기",
+        "en": "Password Generator",
+        "ja": "パスワード生成"
+      },
+      "summary": {
+        "ko": "안전한 비밀번호·패스프레이즈 생성과 강도 평가",
+        "en": "Generate secure passwords and passphrases with strength rating",
+        "ja": "安全なパスワード・パスフレーズの生成と強度評価"
+      }
+    },
+    {
+      "target": "QuickTodo",
+      "id": "quick-todo",
+      "symbol": "checklist",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "빠른 할 일",
+        "en": "Quick Todo",
+        "ja": "クイックToDo"
+      },
+      "summary": {
+        "ko": "메뉴 막대에서 바로 적는 할 일 목록",
+        "en": "A to-do list you jot down right from the menu bar",
+        "ja": "メニューバーからすぐ書けるToDoリスト"
+      }
+    },
+    {
+      "target": "TextToSpeech",
+      "id": "text-to-speech",
+      "symbol": "speaker.wave.2.bubble",
+      "category": "text",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "텍스트 읽어주기",
+        "en": "Text to Speech",
+        "ja": "テキスト読み上げ"
+      },
+      "summary": {
+        "ko": "선택한 텍스트나 클립보드를 음성으로 읽기",
+        "en": "Read selected text or the clipboard aloud",
+        "ja": "選択したテキストやクリップボードを音声で読み上げ"
+      }
+    },
+    {
+      "target": "NetworkInfo",
+      "id": "network-info",
+      "symbol": "network",
+      "category": "network",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "네트워크 정보",
+        "en": "Network Info",
+        "ja": "ネットワーク情報"
+      },
+      "summary": {
+        "ko": "내부·공인 IP, DNS, Wi-Fi 신호, 핑, 속도 측정",
+        "en": "Local & public IP, DNS, Wi-Fi signal, ping, speed test",
+        "ja": "内部・グローバルIP、DNS、Wi-Fi信号、ping、速度測定"
+      }
+    },
+    {
+      "target": "Timers",
+      "id": "timers",
+      "symbol": "stopwatch",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "타이머·스톱워치",
+        "en": "Timers & Stopwatch",
+        "ja": "タイマー・ストップウォッチ"
+      },
+      "summary": {
+        "ko": "여러 개의 타이머·스톱워치·알람을 메뉴 막대에서",
+        "en": "Multiple timers, a stopwatch and alarms from the menu bar",
+        "ja": "複数のタイマー・ストップウォッチ・アラームをメニューバーから"
+      }
+    },
+    {
+      "target": "QuickTranslate",
+      "id": "quick-translate",
+      "symbol": "character.book.closed",
+      "category": "text",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "빠른 번역",
+        "en": "Quick Translate",
+        "ja": "クイック翻訳"
+      },
+      "summary": {
+        "ko": "선택 텍스트를 온디바이스로 번역(한·영·일 등)",
+        "en": "Translate selected text on-device (Korean, English, Japanese, …)",
+        "ja": "選択テキストをオンデバイスで翻訳（韓・英・日など）"
+      }
+    },
+    {
+      "target": "BreakReminder",
+      "id": "break-reminder",
+      "symbol": "figure.walk",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "휴식 알림",
+        "en": "Break Reminder",
+        "ja": "休憩リマインダー"
+      },
+      "summary": {
+        "ko": "눈 휴식(20-20-20)·스트레칭 알림",
+        "en": "Eye rest (20-20-20) and stretch reminders",
+        "ja": "目の休憩（20-20-20）・ストレッチの通知"
+      }
+    },
+    {
+      "target": "BluetoothBattery",
+      "id": "bluetooth-battery",
+      "symbol": "airpodspro",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "블루투스 배터리",
+        "en": "Bluetooth Battery",
+        "ja": "Bluetoothバッテリー"
+      },
+      "summary": {
+        "ko": "에어팟·키보드·마우스 등 블루투스 기기 배터리 표시",
+        "en": "Show battery of AirPods, keyboards, mice and other Bluetooth devices",
+        "ja": "AirPods・キーボード・マウスなどBluetooth機器のバッテリーを表示"
+      }
+    },
+    {
+      "target": "CacheCleaner",
+      "id": "cache-cleaner",
+      "symbol": "sparkles",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "캐시 정리",
+        "en": "Cache Cleaner",
+        "ja": "キャッシュ整理"
+      },
+      "summary": {
+        "ko": "사용자 캐시·로그·개발 도구 캐시 용량을 계산하고 휴지통으로 정리",
+        "en": "Measure user caches, logs and developer tool caches and clean them to the Trash",
+        "ja": "ユーザーキャッシュ・ログ・開発ツールキャッシュの容量を計算しゴミ箱へ整理"
+      }
+    },
+    {
+      "target": "ScreenOCR",
+      "id": "screen-ocr",
+      "symbol": "text.viewfinder",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "화면 텍스트 인식",
+        "en": "Screen Text Recognition",
+        "ja": "画面テキスト認識"
+      },
+      "summary": {
+        "ko": "화면 영역을 선택해 텍스트를 인식·복사",
+        "en": "Select a screen area to recognize and copy text",
+        "ja": "画面の領域を選択してテキストを認識・コピー"
+      }
+    },
+    {
+      "target": "VoiceMemo",
+      "id": "voice-memo",
+      "symbol": "mic.circle",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "음성 메모·받아쓰기",
+        "en": "Voice Memo & Dictation",
+        "ja": "ボイスメモ・文字起こし"
+      },
+      "summary": {
+        "ko": "녹음 후 온디바이스 받아쓰기로 텍스트 변환",
+        "en": "Record, then transcribe on-device",
+        "ja": "録音してオンデバイスで文字起こし"
+      }
+    },
+    {
+      "target": "IconGenerator",
+      "id": "icon-generator",
+      "symbol": "app.badge",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "앱 아이콘 생성기",
+        "en": "App Icon Generator",
+        "ja": "アプリアイコン生成"
+      },
+      "summary": {
+        "ko": "이미지 한 장으로 앱 아이콘·파비콘 세트 생성",
+        "en": "Generate app icon and favicon sets from a single image",
+        "ja": "1枚の画像からアプリアイコン・ファビコンのセットを生成"
+      }
+    },
+    {
+      "target": "DDayCounter",
+      "id": "dday-counter",
+      "symbol": "calendar.badge.clock",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "디데이",
+        "en": "D-Day",
+        "ja": "D-Day"
+      },
+      "summary": {
+        "ko": "기념일·마감 디데이를 메뉴 막대에 표시",
+        "en": "Show anniversaries and deadlines as D-Day counters in the menu bar",
+        "ja": "記念日・締め切りのD-Dayをメニューバーに表示"
+      }
+    },
+    {
+      "target": "PixelRuler",
+      "id": "pixel-ruler",
+      "symbol": "ruler",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "픽셀 자",
+        "en": "Pixel Ruler",
+        "ja": "ピクセル定規"
+      },
+      "summary": {
+        "ko": "화면 위 거리·영역 크기를 픽셀로 측정",
+        "en": "Measure distances and area sizes on screen in pixels",
+        "ja": "画面上の距離や領域サイズをピクセルで測定"
+      }
+    },
+    {
+      "target": "Diary",
+      "id": "diary",
+      "symbol": "book.closed",
+      "category": "focus",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "일기장",
+        "en": "Diary",
+        "ja": "日記帳"
+      },
+      "summary": {
+        "ko": "날짜별 일기 작성, 기분·태그 기록, 달력 보기와 검색 (⌃⌥W)",
+        "en": "Daily journal with mood, tags, calendar view and search (⌃⌥W)",
+        "ja": "日付ごとの日記、気分・タグの記録、カレンダー表示と検索 (⌃⌥W)"
+      }
+    },
+    {
+      "target": "AppLauncher",
+      "id": "app-launcher",
+      "symbol": "magnifyingglass",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "빠른 실행",
+        "en": "Quick Launcher",
+        "ja": "クイック起動"
+      },
+      "summary": {
+        "ko": "앱·시스템 설정·모듈을 단축키로 검색해 실행 (⌃Space)",
+        "en": "Search and launch apps, system settings and modules with one shortcut (⌃Space)",
+        "ja": "アプリ・システム設定・モジュールをショートカットで検索して起動 (⌃Space)"
+      }
+    },
+    {
+      "target": "Archiver",
+      "id": "archiver",
+      "symbol": "archivebox",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "압축·해제",
+        "en": "Archiver",
+        "ja": "圧縮・解凍"
+      },
+      "summary": {
+        "ko": "zip·tar·gz 압축과 해제, 암호 압축 지원",
+        "en": "Compress and extract zip/tar/gz archives, with password-protected zip support",
+        "ja": "zip・tar・gz の圧縮と解凍。パスワード付き zip にも対応"
+      }
+    },
+    {
+      "target": "MediaConverter",
+      "id": "media-converter",
+      "symbol": "film",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "미디어 변환",
+        "en": "Media Converter",
+        "ja": "メディア変換"
+      },
+      "summary": {
+        "ko": "동영상·오디오 포맷 변환, 자르기, 오디오 추출, GIF 만들기",
+        "en": "Convert video/audio formats, trim clips, extract audio, and make GIFs",
+        "ja": "動画・音声のフォーマット変換、トリミング、音声抽出、GIF作成"
+      }
+    },
+    {
+      "target": "Authenticator",
+      "id": "authenticator",
+      "symbol": "lock.shield",
+      "category": "security",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "2단계 인증",
+        "en": "Two-Factor Auth",
+        "ja": "2要素認証"
+      },
+      "summary": {
+        "ko": "TOTP 인증 코드 생성과 자동 복사",
+        "en": "Generate TOTP codes and copy them in one click",
+        "ja": "TOTP 認証コードの生成とワンクリックコピー"
+      }
+    },
+    {
+      "target": "ScreenRecorder",
+      "id": "screen-recorder",
+      "symbol": "record.circle",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "화면 녹화",
+        "en": "Screen Recorder",
+        "ja": "画面収録"
+      },
+      "summary": {
+        "ko": "영역·창·전체 화면을 동영상이나 GIF 로 녹화",
+        "en": "Record an area, a window, or the whole screen to video or GIF",
+        "ja": "範囲・ウインドウ・画面全体を動画や GIF で収録"
+      }
+    },
+    {
+      "target": "DragShelf",
+      "id": "drag-shelf",
+      "symbol": "tray.and.arrow.down",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [
+        "automation"
+      ],
+      "name": {
+        "ko": "드래그 셸프",
+        "en": "Drag Shelf",
+        "ja": "ドラッグシェルフ"
+      },
+      "summary": {
+        "ko": "드래그 중인 파일을 잠시 모아 두는 보관대",
+        "en": "A temporary holding area for files you are dragging",
+        "ja": "ドラッグ中のファイルを一時的にためておく置き場"
+      }
+    },
+    {
+      "target": "WindowLayouts",
+      "id": "window-layouts",
+      "symbol": "rectangle.3.group",
+      "category": "window",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "창 레이아웃",
+        "en": "Window Layouts",
+        "ja": "ウインドウレイアウト"
+      },
+      "summary": {
+        "ko": "창 배치를 이름 붙여 저장하고 단축키로 복원",
+        "en": "Save named window arrangements and restore them with a hotkey",
+        "ja": "ウインドウの配置に名前を付けて保存し、ショートカットで復元"
+      }
+    },
+    {
+      "target": "FileEncryptor",
+      "id": "file-encryptor",
+      "symbol": "lock.doc",
+      "category": "security",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "파일 암호화",
+        "en": "File Encryption",
+        "ja": "ファイル暗号化"
+      },
+      "summary": {
+        "ko": "암호로 파일·폴더를 AES-256-GCM 으로 암호화하고 복호화 (.myenc)",
+        "en": "Encrypt and decrypt files and folders with a password using AES-256-GCM (.myenc)",
+        "ja": "パスワードでファイル・フォルダを AES-256-GCM 暗号化・復号 (.myenc)"
+      }
+    },
+    {
+      "target": "StartupManager",
+      "id": "startup-manager",
+      "symbol": "power",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "시작 항목 관리",
+        "en": "Startup Items",
+        "ja": "起動項目の管理"
+      },
+      "summary": {
+        "ko": "로그인 항목·런치 에이전트 정리와 앱 일괄 종료",
+        "en": "Review login items and launch agents, and quit running apps in bulk",
+        "ja": "ログイン項目・Launch Agent の整理とアプリの一括終了"
+      }
+    },
+    {
+      "target": "QuickToggles",
+      "id": "quick-toggles",
+      "symbol": "switch.2",
+      "category": "menubar",
+      "defaultEnabled": true,
+      "permissions": [
+        "automation"
+      ],
+      "name": {
+        "ko": "빠른 토글",
+        "en": "Quick Toggles",
+        "ja": "クイックトグル"
+      },
+      "summary": {
+        "ko": "다크 모드·색온도·마이크 음소거·숨김 파일 등 자주 쓰는 토글 모음",
+        "en": "Dark mode, color temperature, mic mute, hidden files and other everyday toggles",
+        "ja": "ダークモード・色温度・マイクミュート・隠しファイルなど、よく使うトグル集"
+      }
+    },
+    {
+      "target": "MediaPlayer",
+      "id": "media-player",
+      "symbol": "play.rectangle",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "동영상 플레이어",
+        "en": "Media Player",
+        "ja": "動画プレーヤー"
+      },
+      "summary": {
+        "ko": "자막·재생 속도·PiP 를 지원하는 동영상·음악 플레이어",
+        "en": "Video and audio player with subtitles, playback speed and Picture in Picture",
+        "ja": "字幕・再生速度・PiP に対応した動画・音楽プレーヤー"
+      }
+    },
+    {
+      "target": "MenuBarManager",
+      "id": "menu-bar-manager",
+      "symbol": "menubar.rectangle",
+      "category": "menubar",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "메뉴 막대 정리",
+        "en": "Menu Bar Tidy",
+        "ja": "メニューバー整理"
+      },
+      "summary": {
+        "ko": "메뉴 막대 아이콘을 접어 두고 필요할 때만 펼치기",
+        "en": "Fold menu bar icons away and unfold them only when you need them",
+        "ja": "メニューバーのアイコンをたたんでおき、必要なときだけ開く"
+      }
+    },
+    {
+      "target": "InputSourceMemory",
+      "id": "input-source-memory",
+      "symbol": "keyboard.badge.ellipsis",
+      "category": "input",
+      "defaultEnabled": false,
+      "permissions": [],
+      "name": {
+        "ko": "앱별 입력기 기억",
+        "en": "Per-App Input Source",
+        "ja": "アプリごとの入力ソース記憶"
+      },
+      "summary": {
+        "ko": "앱마다 한글·영문 입력기를 기억해 전환할 때 자동으로 되돌리기",
+        "en": "Remembers each app's Korean/English input source and restores it when you switch apps",
+        "ja": "アプリごとに入力ソースを覚えて、切り替えたときに自動で戻します"
+      }
+    },
+    {
+      "target": "DisplayBrightness",
+      "id": "display-brightness",
+      "symbol": "sun.max",
+      "category": "window",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "외장 모니터 밝기",
+        "en": "External Display Brightness",
+        "ja": "外部モニタの明るさ"
+      },
+      "summary": {
+        "ko": "외장 모니터 밝기·대비·볼륨을 단축키와 메뉴로 조절",
+        "en": "Control external display brightness, contrast and volume from hotkeys and the menu bar",
+        "ja": "外部モニタの明るさ・コントラスト・音量をショートカットとメニューから調整"
+      }
+    },
+    {
+      "target": "NightShiftControl",
+      "id": "night-shift-control",
+      "symbol": "moon.circle",
+      "category": "window",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "화면 색온도",
+        "en": "Display Warmth",
+        "ja": "画面の色温度"
+      },
+      "summary": {
+        "ko": "야간 모드·True Tone 을 앱에서 바로 조절",
+        "en": "Control Night Shift and True Tone right here",
+        "ja": "Night Shift と True Tone をアプリから直接調整"
+      }
+    },
+    {
+      "target": "NetworkUsage",
+      "id": "network-usage",
+      "symbol": "chart.bar.xaxis",
+      "category": "network",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "앱별 네트워크 사용량",
+        "en": "Per-App Network Usage",
+        "ja": "アプリ別ネットワーク使用量"
+      },
+      "summary": {
+        "ko": "어떤 앱이 얼마나 통신하는지 실시간으로 확인",
+        "en": "See which apps are using the network, live",
+        "ja": "どのアプリがどれだけ通信しているかをリアルタイムで確認"
+      }
+    },
+    {
+      "target": "FinderPlus",
+      "id": "finder-plus",
+      "symbol": "folder.badge.gearshape",
+      "category": "files",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "파인더 보강",
+        "en": "Finder Plus",
+        "ja": "Finder 強化"
+      },
+      "summary": {
+        "ko": "잘라내기·새 파일·경로 복사·터미널 열기",
+        "en": "Cut & paste, new file, copy path, open terminal",
+        "ja": "切り取り・新規ファイル・パスコピー・ターミナルで開く"
+      }
+    },
+    {
+      "target": "DefaultApps",
+      "id": "default-apps",
+      "symbol": "app.badge.checkmark",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "기본 앱 설정",
+        "en": "Default Apps",
+        "ja": "デフォルトアプリ設定"
+      },
+      "summary": {
+        "ko": "확장자별 기본 앱을 한곳에서 바꾸기",
+        "en": "Change the default app for every file extension in one place",
+        "ja": "拡張子ごとのデフォルトアプリを一か所で変更"
+      }
+    },
+    {
+      "target": "TaskManager",
+      "id": "task-manager",
+      "symbol": "list.bullet.rectangle",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "작업 관리자",
+        "en": "Task Manager",
+        "ja": "タスクマネージャ"
+      },
+      "summary": {
+        "ko": "멈춘 앱을 바로 찾아 종료",
+        "en": "Find and quit a stuck app instantly",
+        "ja": "固まったアプリをすぐ見つけて終了"
+      }
+    },
+    {
+      "target": "MouseSideButtons",
+      "id": "mouse-side-buttons",
+      "symbol": "computermouse",
+      "category": "input",
+      "defaultEnabled": false,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "마우스 옆 버튼",
+        "en": "Mouse Side Buttons",
+        "ja": "マウスのサイドボタン"
+      },
+      "summary": {
+        "ko": "옆 버튼으로 뒤로·앞으로 이동",
+        "en": "Navigate back and forward with the side buttons",
+        "ja": "サイドボタンで「戻る・進む」"
+      }
+    },
+    {
+      "target": "PCKeyBehavior",
+      "id": "pc-key-behavior",
+      "symbol": "keyboard",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "PC 키 동작",
+        "en": "PC Key Behavior",
+        "ja": "PC キー動作"
+      },
+      "summary": {
+        "ko": "Home·End 를 Windows 처럼 줄 끝으로",
+        "en": "Home/End jump to line ends, like Windows",
+        "ja": "Home・End を Windows のように行頭・行末へ"
+      }
+    },
+    {
+      "target": "YouTubeDownloader",
+      "id": "youtube-downloader",
+      "symbol": "arrow.down.circle",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "유튜브 다운로드",
+        "en": "YouTube Downloader",
+        "ja": "YouTubeダウンロード"
+      },
+      "summary": {
+        "ko": "유튜브 영상·음원을 화질 골라 내려받기",
+        "en": "Download YouTube video or audio at the quality you choose",
+        "ja": "YouTubeの動画・音声を画質を選んでダウンロード"
+      }
+    },
+    {
+      "target": "SubtitleStudio",
+      "id": "subtitle-studio",
+      "symbol": "captions.bubble",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "자막 스튜디오",
+        "en": "Subtitle Studio",
+        "ja": "字幕スタジオ"
+      },
+      "summary": {
+        "ko": "자막 자동 추출·편집·효과 입혀 영상에 굽기",
+        "en": "Auto-extract, edit, and burn styled subtitles into video",
+        "ja": "字幕の自動抽出・編集・エフェクト付きで動画に焼き込み"
+      }
+    },
+    {
+      "target": "ScreenStudio",
+      "id": "screen-studio",
+      "symbol": "sparkles.tv",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "화면 스튜디오",
+        "en": "Screen Studio",
+        "ja": "画面スタジオ"
+      },
+      "summary": {
+        "ko": "녹화한 화면을 자동 확대·부드러운 커서로 다듬어 영상 제작",
+        "en": "Turn screen recordings into polished videos with auto zoom and a smooth cursor",
+        "ja": "録画した画面を自動ズームと滑らかなカーソルで仕上げて動画を作成"
+      }
+    },
+    {
+      "target": "WindowPin",
+      "id": "window-pin",
+      "symbol": "pin.fill",
+      "category": "window",
+      "defaultEnabled": true,
+      "permissions": [
+        "screenRecording"
+      ],
+      "name": {
+        "ko": "창 띄워 두기",
+        "en": "Pin a Window",
+        "ja": "ウインドウを浮かべる"
+      },
+      "summary": {
+        "ko": "다른 창을 항상 위에 뜨는 작은 창으로 띄워 둡니다",
+        "en": "Keep another window in a small always-on-top window",
+        "ja": "他のウインドウを常に手前に浮かぶ小窓として置いておきます"
+      }
+    },
+    {
+      "target": "LinkCleaner",
+      "id": "link-cleaner",
+      "symbol": "link.badge.plus",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "링크 청소기",
+        "en": "Link Cleaner",
+        "ja": "リンク掃除"
+      },
+      "summary": {
+        "ko": "복사한 링크에서 추적 파라미터를 떼어 냅니다",
+        "en": "Strips tracking parameters from links you copy",
+        "ja": "コピーしたリンクから追跡パラメータを取り除きます"
+      }
+    },
+    {
+      "target": "PlainPaste",
+      "id": "plain-paste",
+      "symbol": "doc.on.clipboard",
+      "category": "input",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "서식 없이 붙여넣기",
+        "en": "Paste Without Formatting",
+        "ja": "書式なしで貼り付け"
+      },
+      "summary": {
+        "ko": "복사한 글의 글꼴·색을 떼고 글자만 붙여 넣습니다",
+        "en": "Drops the font and colour from copied text and pastes the words only",
+        "ja": "コピーした文章からフォントや色を外し、文字だけを貼り付けます"
+      }
+    },
+    {
+      "target": "TextTransform",
+      "id": "text-transform",
+      "symbol": "textformat.abc",
+      "category": "text",
+      "defaultEnabled": true,
+      "permissions": [
+        "accessibility"
+      ],
+      "name": {
+        "ko": "선택 텍스트 변환",
+        "en": "Transform Selected Text",
+        "ja": "選択テキスト変換"
+      },
+      "summary": {
+        "ko": "고른 글자를 대소문자·슬러그·공백 정리 등으로 그 자리에서 바꿉니다",
+        "en": "Changes the text you selected in place — case, slug, whitespace and more",
+        "ja": "選んだ文字を大文字小文字・スラッグ・空白整理などでその場で変えます"
+      }
+    },
+    {
+      "target": "MediaWatch",
+      "id": "media-watch",
+      "symbol": "camera.metering.spot",
+      "category": "security",
+      "defaultEnabled": true,
+      "permissions": [
+        "notifications"
+      ],
+      "name": {
+        "ko": "마이크·카메라 감시",
+        "en": "Mic & Camera Watch",
+        "ja": "マイク・カメラ監視"
+      },
+      "summary": {
+        "ko": "지금 어떤 앱이 마이크와 카메라를 쓰는지 메뉴 막대에서 보여 줍니다",
+        "en": "Shows in the menu bar which apps are using the microphone and camera right now",
+        "ja": "今どのアプリがマイクとカメラを使っているかをメニューバーに表示します"
+      }
+    },
+    {
+      "target": "BackgroundRemover",
+      "id": "background-remover",
+      "symbol": "person.crop.square.filled.and.at.rectangle",
+      "category": "media",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "이미지 배경 제거",
+        "en": "Remove Image Background",
+        "ja": "画像の背景を削除"
+      },
+      "summary": {
+        "ko": "사진에서 피사체만 남기고 배경을 지웁니다 (기기 안에서 처리)",
+        "en": "Keeps only the subject and erases the background (processed on device)",
+        "ja": "写真から被写体だけを残して背景を消します（デバイス内で処理）"
+      }
+    },
+    {
+      "target": "NetworkProfiles",
+      "id": "network-profiles",
+      "symbol": "wifi.router",
+      "category": "network",
+      "defaultEnabled": true,
+      "permissions": [
+        "location",
+        "automation"
+      ],
+      "name": {
+        "ko": "Wi-Fi 따라 프로필",
+        "en": "Wi-Fi Profiles",
+        "ja": "Wi-Fi プロファイル"
+      },
+      "summary": {
+        "ko": "연결한 Wi-Fi 에 따라 오디오·프린터·앱을 한꺼번에 바꿉니다",
+        "en": "Switch audio, printer and apps together based on the Wi-Fi network you join",
+        "ja": "接続した Wi-Fi に応じてオーディオ・プリンタ・アプリをまとめて切り替えます"
+      }
+    },
+    {
+      "target": "PowerSchedule",
+      "id": "power-schedule",
+      "symbol": "power",
+      "category": "system",
+      "defaultEnabled": true,
+      "permissions": [
+        "automation",
+        "notifications"
+      ],
+      "name": {
+        "ko": "예약 종료·잠자기",
+        "en": "Scheduled Shutdown & Sleep",
+        "ja": "予約シャットダウン・スリープ"
+      },
+      "summary": {
+        "ko": "정한 시각이나 시간 뒤에 종료·재시작·잠자기를 예약합니다",
+        "en": "Schedule a shutdown, restart or sleep at a time or after a delay",
+        "ja": "指定した時刻や時間後にシステム終了・再起動・スリープを予約します"
+      }
+    },
+    {
+      "target": "FolderServer",
+      "id": "folder-server",
+      "symbol": "externaldrive.badge.wifi",
+      "category": "network",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "폴더 공유 서버",
+        "en": "Folder Sharing Server",
+        "ja": "フォルダ共有サーバ"
+      },
+      "summary": {
+        "ko": "폴더를 같은 네트워크에 웹으로 띄우고 QR 로 주소를 보여 줍니다",
+        "en": "Serves a folder over your local network and shows the address as a QR code",
+        "ja": "フォルダを同じネットワークにWebで公開し、アドレスをQRコードで表示します"
+      }
+    },
+    {
+      "target": "ScreenDraw",
+      "id": "screen-draw",
+      "symbol": "scribble.variable",
+      "category": "capture",
+      "defaultEnabled": true,
+      "permissions": [],
+      "name": {
+        "ko": "화면에 그리기",
+        "en": "Draw on Screen",
+        "ja": "画面に描く"
+      },
+      "summary": {
+        "ko": "발표 중에 화면 위에 도형과 선을 그려 설명합니다",
+        "en": "Draw shapes and lines over the screen to explain things while presenting",
+        "ja": "発表中に画面の上へ図形や線を描いて説明します"
+      }
+    }
+  ]
+}
