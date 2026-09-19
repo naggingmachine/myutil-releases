@@ -1,5 +1,5 @@
 {
-  "count": 85,
+  "count": 86,
   "categories": {
     "window": {
       "ko": "창·디스플레이",
@@ -1735,6 +1735,24 @@
         "ko": "발표 중에 화면 위에 도형과 선을 그려 설명합니다",
         "en": "Draw shapes and lines over the screen to explain things while presenting",
         "ja": "発表中に画面の上へ図形や線を描いて説明します"
+      }
+    },
+    {
+      "target": "TorrentDownloader",
+      "id": "torrent-downloader",
+      "symbol": "arrow.down.circle",
+      "category": "network",
+      "defaultEnabled": false,
+      "permissions": [],
+      "name": {
+        "ko": "토렌트 다운로드",
+        "en": "Torrent Downloader",
+        "ja": "トレントダウンロード"
+      },
+      "summary": {
+        "ko": "토렌트 파일과 마그넷 링크를 받아 여러 피어에서 내려받습니다",
+        "en": "Downloads .torrent files and magnet links from multiple peers",
+        "ja": "トレントファイルとマグネットリンクを複数のピアからダウンロードします"
       }
     }
   ]

@@ -1,8 +1,8 @@
 # MyUtils - All In One
 
-**85가지 macOS 유틸리티를 하나의 메뉴 막대 앱으로.** 창 스냅부터 화면 캡처·마크다운 편집기·가사 자막 생성까지, 자주 쓰는 도구를 모듈로 묶었습니다. 필요한 모듈만 켜서 쓰고, 한국어·영어·일본어를 지원합니다.
+**86가지 macOS 유틸리티를 하나의 메뉴 막대 앱으로.** 창 스냅부터 화면 캡처·마크다운 편집기·가사 자막 생성까지, 자주 쓰는 도구를 모듈로 묶었습니다. 필요한 모듈만 켜서 쓰고, 한국어·영어·일본어를 지원합니다.
 
-**85 macOS utilities in one menu bar app.** Window snapping, screen capture, Markdown editor, lyrics subtitle generator and more — each a module you can switch on or off. Korean, English and Japanese UI.
+**86 macOS utilities in one menu bar app.** Window snapping, screen capture, Markdown editor, lyrics subtitle generator and more — each a module you can switch on or off. Korean, English and Japanese UI.
 
 ## 소개 페이지 · Overview
 
@@ -11,7 +11,7 @@ See the **[MyUtils overview page](https://myutils-mac.vercel.app/)** for a visua
 
 ## 다운로드 · Download
 
-- **최신 버전 / Latest**: **v2.6.4** (2026-09-17) — [MyUtil-2.6.4.dmg](https://github.com/naggingmachine/myutil-releases/releases/download/v2.6.4/MyUtil-2.6.4.dmg) · [릴리스 노트 / Release notes](https://github.com/naggingmachine/myutil-releases/releases/tag/v2.6.4) · [모든 버전 / All releases](https://github.com/naggingmachine/myutil-releases/releases)
+- **최신 버전 / Latest**: **v2.7.0** (2026-09-19) — [MyUtil-2.7.0.dmg](https://github.com/naggingmachine/myutil-releases/releases/download/v2.7.0/MyUtil-2.7.0.dmg) · [릴리스 노트 / Release notes](https://github.com/naggingmachine/myutil-releases/releases/tag/v2.7.0) · [모든 버전 / All releases](https://github.com/naggingmachine/myutil-releases/releases)
 - macOS 14 Sonoma 이상, Apple Silicon / Intel. Developer ID 서명과 Apple 공증이 완료되어 경고 없이 실행됩니다.
 
 ### 설치 · Install
@@ -138,6 +138,7 @@ See the **[MyUtils overview page](https://myutils-mac.vercel.app/)** for a visua
 | **앱별 네트워크 사용량** | 어떤 앱이 얼마나 통신하는지 실시간으로 확인 |
 | **Wi-Fi 따라 프로필** | 연결한 Wi-Fi 에 따라 오디오·프린터·앱을 한꺼번에 바꿉니다 |
 | **폴더 공유 서버** | 폴더를 같은 네트워크에 웹으로 띄우고 QR 로 주소를 보여 줍니다 |
+| **토렌트 다운로드** | 토렌트 파일과 마그넷 링크를 받아 여러 피어에서 내려받습니다 |
 
 ### 보안
 
@@ -285,6 +286,7 @@ See the **[MyUtils overview page](https://myutils-mac.vercel.app/)** for a visua
 | **Per-App Network Usage** | See which apps are using the network, live |
 | **Wi-Fi Profiles** | Switch audio, printer and apps together based on the Wi-Fi network you join |
 | **Folder Sharing Server** | Serves a folder over your local network and shows the address as a QR code |
+| **Torrent Downloader** | Downloads .torrent files and magnet links from multiple peers |
 
 ### Security
 
